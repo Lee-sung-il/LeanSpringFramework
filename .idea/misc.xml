@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/01-spring/learn-spring-framework-02/pom.xml" />
         <option value="$PROJECT_DIR$/02-springboot/learn-spring-boot/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/03-jpa-getting-started/pom.xml" />
       </list>
     </option>
   </component>
