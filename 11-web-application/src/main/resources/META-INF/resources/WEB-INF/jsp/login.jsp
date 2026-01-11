@@ -11,13 +11,15 @@
 </head>
 <body>
 Welcome to the login page!
-<form method="post" action="/login">
+
+<pre>${errorMessage}</pre>
+<form method="post">
     <div class="row align-items-center g-3">
 
         <!-- Name -->
         <div class="col-md-4 d-flex align-items-center">
             <label for="name" class="me-2 mb-0" style="min-width: 70px;">
-                Name
+                Name :
             </label>
             <input
                     type="text"
@@ -30,7 +32,7 @@ Welcome to the login page!
         <!-- Password -->
         <div class="col-md-4 d-flex align-items-center">
             <label for="password" class="me-2 mb-0" style="min-width: 90px;">
-                Password
+                Password :
             </label>
             <input
                     type="password"
@@ -42,9 +44,8 @@ Welcome to the login page!
 
         <!-- Button -->
         <div class="col-md-4">
-            <input type="submit" class="btn btn-primary w-100">
-                Submit
-            </input>
+            <input type="submit" class="btn btn-primary w-100"/>
+
         </div>
 
     </div>
